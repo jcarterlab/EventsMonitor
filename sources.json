@@ -1,0 +1,15 @@
+[
+  {
+    "name": "visit_london",
+    "page_url": "https://www.visitlondon.com/things-to-do/london-by-month/may",
+    "scraping": {
+      "requires_selenium": true,
+      "wait_seconds": 30,
+      "wait_selector": ".cf.content-body"
+    },
+    "parsing": {
+      "parser_name": "generic_parser",
+      "generic_scrape_selector": "p"
+    }
+  }
+]

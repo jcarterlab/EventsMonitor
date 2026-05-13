@@ -41,7 +41,8 @@ def initialise_driver(config):
     options.add_argument('--disable-dev-shm-usage')
     options.add_argument('--disable-gpu')
 
-    options.binary_location = '/usr/bin/chromium'
+    if config.ENVIRONMENT == 'production':
+        options.binary_location = '/usr/bin/chromium'
 
     return webdriver.Chrome(options=options)
 

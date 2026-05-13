@@ -1,8 +1,8 @@
 import logging
 import config
 
-from eventsgatherer.scrape_content import scrape_content
-from eventsgatherer.email_summary import send_email
+from eventsmonitor.scrape_content import scrape_content
+from eventsmonitor.email_summary import send_email
 
 
 # ----------------------------------------------------------------------

@@ -1,12 +1,12 @@
 import logging
 import json
 
-from eventsgatherer.scraping.selenium_fetcher import (
+from eventsmonitor.scraping.selenium_fetcher import (
     initialise_driver,
     load_page,
     quit_driver,
 )
-from eventsgatherer.scraping.generic_parser import generic_parser
+from eventsmonitor.scraping.generic_parser import generic_parser
 
 
 # ----------------------------------------------------------------------
